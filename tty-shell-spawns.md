@@ -1,11 +1,11 @@
-#Spawning TTY Shells
+# Spawning TTY Shells
 
-###python
+### python
 ```python
 python -c 'import pty; pty.spawn("/bin/sh")'
 ```
 
-###system (bash?)
+### system (bash?)
 ```bash
 echo os.system('/bin/bash')
 ```
@@ -14,7 +14,7 @@ echo os.system('/bin/bash')
 /bin/sh -i
 ```
 
-###perl
+### perl
 ```perl
 perl -e 'exec "/bin/sh";'
 ```
@@ -23,27 +23,27 @@ perl -e 'exec "/bin/sh";'
 perl: exec "/bin/sh";
 ```
 
-###ruby
+### ruby
 ```ruby
 ruby: exec "/bin/sh"
 ```
 
-###lua
+### lua
 ```lua
 lua: os.execute('/bin/sh')
 ```
 
-###within IRB
+### within IRB
 ```
 exec "/bin/sh"
 ```
 
-###within vi
+### within vi
 ```
 :!bash
 ```
 
-###within nmap
+### within nmap
 ```
 !sh
 ```
