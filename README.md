@@ -6,9 +6,15 @@
 ***
 
 #### This has/will have:
+
 vim commands
+
 tmux commands
+
 nmap configurations
+
 vim/tmux configs
+
 shell execution
+
 enumeration
