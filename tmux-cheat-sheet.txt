@@ -1,0 +1,42 @@
+prefix: default Ctrl+B, mine Ctrl+A
+
+
+prefix + [ = search mode
+	? = search up from cursor
+	/ = search down from cursor
+	<space> = select mode
+	<enter> = copy selection
+	prefix + ] = exit
+
+
+prefix + Alt + Shift + P = save current session to a log file, can read all commands and outputs
+prefix + ? = brings up all commands for tmux
+prefix + t = bring clock up in current window
+
+
+SPLITTING:
+
+prefix + % = vertical split
+prefix + ' = horizontal split
+
+prefix + arrow key = change to pane in direction of arrow
+prefix + z = make current window fullscreen
+prefix (HOLD CTRL) + arrow key = resize in direction of arrow
+
+prefix + { = move current pane to the left
+prefix + } = move current pane to the right
+prefix + <space> = cycle layout options
+
+
+SEARCHING:
+
+Ctrl + R = recursive search, search through previous commands
+Alt + . = cycle through history argument by argument (cd /opt/, enter, alt+. puts /opt/ in)
+
+
+MOVING:
+
+Ctrl + a + a = move to beginning of line
+Ctrl + e = move to end of line
+Ctrl + left = move left word by word
+Ctrl + right = move right word by word
